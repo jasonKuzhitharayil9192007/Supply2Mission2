@@ -32,9 +32,13 @@ function setup() {
    
 	// creating the box
 	box = createSprite(400,620,200,20);
+	box.shapeColor("red");
 
-	leftS = createSprite(300,580,20,100);	
+	leftS = createSprite(300,580,20,100);
+	leftS.shapeColor("red");	
+	
 	rightS = createSprite(500,580,20,100);
+	rightS.shapeColor("red");
 
 	engine = Engine.create();
 	world = engine.world;
